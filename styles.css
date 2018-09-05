@@ -4,13 +4,61 @@
 body {
   font-family: Catamaran;
   font-weight: 100;
+  font-size: 62.5%;
 }
 
 h1{
   font-weight: 400;
-
+  font-size: 3em;
 }
 
 h2 {
   font-weight: 200;
+  margin-left:5%;
 }
+
+
+img {
+  width: 50px;
+  height: 50px;
+  align-content: center;
+}
+
+li {
+  margin:10px;
+  font-size: 2em;
+  font-weight: 400;
+  display: inline;
+}
+
+ul{
+    display: inline;
+}
+
+header {
+  display: flex;
+}
+
+
+
+.box1 {
+  margin-left: 10%;
+  flex: 4;
+  display: flex;
+}
+
+.box2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.box3 {
+  margin-right: 10%;
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box:last-child  > span { margin-left: auto;  }
