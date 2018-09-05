@@ -8,12 +8,12 @@ body {
 }
 
 h1{
-  font-weight: 400;
+  font-weight: 700;
   font-size: 3em;
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 400;
   margin-left:5%;
 }
 
@@ -21,17 +21,17 @@ h2 {
 img {
   width: 50px;
   height: 50px;
-  align-content: center;
 }
 
 li {
   margin:10px;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 700;
   display: inline;
 }
 
 ul{
+    margin-top: 35px;
     display: inline;
 }
 
@@ -42,8 +42,8 @@ header {
 
 
 .box1 {
-  margin-left: 10%;
-  flex: 4;
+  margin-left: 5%;
+  flex: 8;
   display: flex;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 .box3 {
   margin-right: 10%;
-  flex: 4;
+  flex: 8;
   display: flex;
   justify-content: flex-end;
 }
